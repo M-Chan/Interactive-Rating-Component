@@ -23,6 +23,22 @@
     align-items: center;
 }
 
+.mainText{color: hsl(0, 0%, 100%);}
+.smallText{color: hsl(217, 12%, 63%);}
+
+.ratingButton{
+    display: inline-block;
+    width: 2vw;
+
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(217, 12%, 63%);
+}
+
+#submitButton{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
 
 @media only screen and (min-width: 400px) { /* modelled using desktop in Chrome */
     .attribution {
@@ -35,6 +51,7 @@
     .ratingContainer, .thankyouContainer{
         width: 28.4vw;
         height: 51.7vh;
+        border-radius: 4vh;
 
         background-color: hsl(213, 19%, 18%);
     }
