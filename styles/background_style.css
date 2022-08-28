@@ -39,6 +39,9 @@
     color: hsl(0, 0%, 100%);
 }
 
+.is--hidden{display: none;}
+.is--visible{display: block;}
+
 
 @media only screen and (min-width: 400px) { /* modelled using desktop in Chrome */
     .attribution {
@@ -48,17 +51,17 @@
         font-size: 3vh;
     }
 
-    .ratingContainer, .thankyouContainer{
+    #ratingContainer, #thankyouContainer{
         width: 28.4vw;
         height: 51.7vh;
         border-radius: 4vh;
 
         background-color: hsl(213, 19%, 18%);
-    }
+    }    
 
-    .thankyouContainer{
-        display: none;
+    #submitButton{
+        width: 20vw;
+        height: 10vh;
     }
-    
 }
 
