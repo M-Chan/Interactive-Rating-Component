@@ -23,12 +23,21 @@
     align-items: center;
 }
 
+#star{
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/icon-star.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .mainText{color: hsl(0, 0%, 100%);}
 .smallText{color: hsl(217, 12%, 63%);}
 
 .ratingButton{
     display: inline-block;
-    width: 2vw;
+
+    border-radius: 50%;
 
     background-color: hsl(216, 12%, 54%);
     color: hsl(217, 12%, 63%);
@@ -57,11 +66,72 @@
         border-radius: 4vh;
 
         background-color: hsl(213, 19%, 18%);
+    }
+
+    #ratingContainer{
+        display: grid;
+        grid-template-columns: 1.9vw 24.6vw 1.9vw; /* adds to 28.4vw */
+        grid-template-rows: 14.6vh 2.8vh 2.2vh 7.8vh 14.2vh 10.1vh; /* adds to 51.7vh */
+        align-items: center;
     }    
 
+    .starBox, .mainText, .smallText, .ratingButtonContainer, #submitButton{
+        grid-column: 2;
+    }
+
+    .starBox{
+        grid-row: 1;
+
+        width: 24.6vw;
+        height: 4.9vh;
+        justify-self: start;
+    }
+
+    .mainText{
+        grid-row: 2;
+        justify-self: start;
+
+        font-family: 'Overpass', sans-serif;
+        font-size: 4vh;
+        font-weight: 700;
+    }
+      
+    .smallText{
+        grid-row: 4;
+        justify-self: start;
+
+        font-family: 'Overpass', sans-serif;
+        font-size: 2.2vh;
+        font-weight: 400;
+    }
+    
+    .ratingButtonContainer{
+        grid-row: 5;
+        justify-self: center;
+    }
+
+    .ratingButton{
+        width: 4.8vh;
+        height: 4.8vh;
+
+        text-align: center;
+        font-family: 'Overpass', sans-serif;
+        font-size: 2.2vh;
+        font-weight: 400;
+    }
+
     #submitButton{
-        width: 20vw;
-        height: 10vh;
+        width: 24.4vw;
+        height: 5.6vh;
+
+        grid-row: 6;
+        align-self: start;
+        justify-self: center;
+
+        text-align: center;
+        font-family: 'Overpass', sans-serif;
+        font-size: 2.2vh;
+        font-weight: 400;
     }
 }
 
