@@ -68,7 +68,7 @@
         background-color: hsl(213, 19%, 18%);
     }
 
-    #ratingContainer{
+    #ratingCard{
         display: grid;
         grid-template-columns: 1.9vw 24.6vw 1.9vw; /* adds to 28.4vw */
         grid-template-rows: 14.6vh 2.8vh 2.2vh 7.8vh 14.2vh 10.1vh; /* adds to 51.7vh */

@@ -19,38 +19,42 @@
   <div class="screen">
      <!-- Rating state start -->
     <div id="ratingContainer" class="is--visible">
-      <div class="starBox"><div id="star"></div></div>
-      <div class="mainText">
-        How did we do?
+      <div id="ratingCard">
+        <div class="starBox"><div id="star"></div></div>
+        <div class="mainText">
+          How did we do?
+        </div>
+        
+        <div class="smallText">
+          Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!
+        </div>
+        
+        <div class="ratingButtonContainer">
+          <div id="1" class="ratingButton">1</div>
+          <div id="2" class="ratingButton">2</div>
+          <div id="3" class="ratingButton">3</div>
+          <div id="4" class="ratingButton">4</div>
+          <div id="5" class="ratingButton">5</div>
+        </div>
+       
+        <div id="submitButton">Submit</div>
       </div>
-      
-      <div class="smallText">
-        Please let us know how we did with your support request. All feedback is appreciated 
-        to help us improve our offering!
-      </div>
-      
-      <div class="ratingButtonContainer">
-        <div class="ratingButton">1</div>
-        <div class="ratingButton">2</div>
-        <div class="ratingButton">3</div>
-        <div class="ratingButton">4</div>
-        <div class="ratingButton">5</div>
-      </div>
-     
-      <div id="submitButton">Submit</div>
     </div>
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
     <div id="thankyouContainer" class="is--hidden">
-      You selected <!-- Add rating here --> out of 5
-      <div class="mainText">
-        Thank you!
-      </div>
-      
-      <div class="smallText">
-        We appreciate you taking the time to give a rating. If you ever need more support, 
-        don’t hesitate to get in touch!
+      <div id="thankyouCard">
+        You selected <!-- Add rating here --> out of 5
+        <div class="mainText">
+          Thank you!
+        </div>
+        
+        <div class="smallText">
+          We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch!
+        </div>
       </div>
     </div>
     <!-- Thank you state end -->
