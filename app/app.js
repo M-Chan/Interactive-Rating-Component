@@ -8,12 +8,17 @@ let rating = 0;
 submitButton.addEventListener("click", () => submit());
 
 function submit(){
-    // console.log("Submitted")
-    ratingCard.classList.remove("is--visible");
-    ratingCard.classList.add("is--hidden");
+    if(rating !=0){
+        // console.log("Submitted successfully")
+        ratingCard.classList.remove("is--visible");
+        ratingCard.classList.add("is--hidden");
 
-    thanksCard.classList.remove("is--hidden");
-    thanksCard.classList.add("is--visible");
+        thanksCard.classList.remove("is--hidden");
+        thanksCard.classList.add("is--visible");
+    }
+    else{
+        alert("Please select a rating");
+    }
 }
 
 ratingButtons.forEach(mainRatingButton => {
