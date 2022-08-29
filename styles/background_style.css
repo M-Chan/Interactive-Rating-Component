@@ -38,9 +38,32 @@
     display: inline-block;
 
     border-radius: 50%;
+    overflow: hidden;
 
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(211, 20%, 21%);
     color: hsl(217, 12%, 63%);
+}
+
+.ratingButton:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.ratingNo{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.ratingNo, #submitButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ratingButton--active{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
 }
 
 #submitButton{
@@ -111,18 +134,23 @@
     }
 
     .ratingButton{
-        width: 4.8vh;
-        height: 4.8vh;
+        width: 7.25vh;
+        height: 7.25vh;
 
         text-align: center;
         font-family: 'Overpass', sans-serif;
         font-size: 2.2vh;
         font-weight: 400;
+
+        margin-right: 0.75vw;
     }
+
+    .ratingButton:hover{cursor: pointer;}
 
     #submitButton{
         width: 24.4vw;
         height: 5.6vh;
+        border-radius: 5vh;
 
         grid-row: 6;
         align-self: start;
@@ -132,6 +160,12 @@
         font-family: 'Overpass', sans-serif;
         font-size: 2.2vh;
         font-weight: 400;
+    }
+
+    #submitButton:hover{
+        cursor: pointer;
+        background-color: hsl(0, 0%, 100%);
+        color: hsl(25, 97%, 53%);
     }
 }
 
