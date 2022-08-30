@@ -21,11 +21,11 @@
     <div id="ratingContainer" class="is--visible">
       <div id="ratingCard">
         <div class="starBox"><div id="star"></div></div>
-        <div class="mainText">
+        <div id="mainText1" class="mainText">
           How did we do?
         </div>
         
-        <div class="smallText">
+        <div id="smallText1" class="smallText">
           Please let us know how we did with your support request. All feedback is appreciated 
           to help us improve our offering!
         </div>
@@ -46,12 +46,14 @@
     <!-- Thank you state start -->
     <div id="thankyouContainer" class="is--hidden">
       <div id="thankyouCard">
-        You selected <!-- Add rating here --> out of 5
-        <div class="mainText">
+        <div class="thanksImageBox"><div id="thanksImage"></div></div>
+        <div class="youSelected"><p>You selected </p> <p id="selectedRating"><!-- Add rating here --></p><p> out of 5</p></div>
+
+        <div id="mainText2" class="mainText">
           Thank you!
         </div>
         
-        <div class="smallText">
+        <div id="smallText2" class="smallText">
           We appreciate you taking the time to give a rating. If you ever need more support, 
           don’t hesitate to get in touch!
         </div>

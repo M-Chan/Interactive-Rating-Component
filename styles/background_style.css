@@ -101,7 +101,7 @@
         align-items: center;
     }    
 
-    .starBox, .mainText, .smallText, .ratingButtonContainer, #submitButton{
+    .starBox, #mainText1, .smallText, .ratingButtonContainer, #submitButton{
         grid-column: 2;
     }
 
@@ -114,19 +114,23 @@
         justify-self: start;
     }
 
-    .mainText{
+    #mainText1{
         grid-row: 2;
         justify-self: start;
+    }
 
+    .mainText{
         font-family: 'Overpass', sans-serif;
         font-size: 4vh;
         font-weight: 700;
     }
-      
-    .smallText{
+    
+    #smallText1{
         grid-row: 4;
         justify-self: start;
+    }
 
+    .smallText{
         font-family: 'Overpass', sans-serif;
         font-size: 2.2vh;
         font-weight: 400;
@@ -170,6 +174,53 @@
         cursor: pointer;
         background-color: hsl(0, 0%, 100%);
         color: hsl(25, 97%, 53%);
+    }
+
+    #thankyouCard{
+        display: grid;
+        grid-template-columns: 1.9vw 24.6vw 1.9vw; /* adds to 28.4vw */
+        grid-template-rows: 23.1vh 3.9vh 7.8vh 12.1vh auto; /* adds to 51.7vh */
+        align-items: center;
+    }
+
+    .thanksImageBox, .youSelected, #mainText2{
+        grid-column: 1 / 4;
+        text-align: center;
+    }
+
+    .thanksImageBox{
+        grid-row: 1;
+        width: 28.4vw;
+        height: 23.1vh;
+    }
+
+    #thanksImage{
+        width: 100%;
+        height: 100%;
+        background-image: url("../assets/illustration-thank-you.svg");
+        background-size: 36%;
+        background-position: center; 
+        background-repeat: no-repeat;
+    }
+
+    .youSelected{
+        grid-row: 2;
+    }
+
+    .youSelected p{
+        display: inline;
+    }
+
+    #mainText2{
+        grid-row: 3;
+        align-self: flex-end;
+    }
+
+    #smallText2{
+        grid-column: 2;
+        grid-row: 4;
+
+        text-align: center;
     }
 }
 
