@@ -4,6 +4,7 @@ let thanksCard = document.querySelector("#thankyouContainer");
 const submitButton = document.querySelector("#submitButton");
 let ratingButtons = document.querySelectorAll(".ratingButton");
 let rating = 0;
+let submittedRating = document.getElementById("selectedRating");
 
 submitButton.addEventListener("click", () => submit());
 
@@ -15,6 +16,8 @@ function submit(){
 
         thanksCard.classList.remove("is--hidden");
         thanksCard.classList.add("is--visible");
+
+        submittedRating.innerText = rating;
     }
     else{
         alert("Please select a rating");
