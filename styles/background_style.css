@@ -219,7 +219,15 @@
         text-align: center;
     }
 
-    .youSelected p{
+    .youSelectedInner{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        position: relative;
+        left: 0.7vw;
+    }
+
+    .youSelectedInner p{
         display: inline;
         color: hsl(25, 97%, 53%);
         font-family: 'Overpass', sans-serif;
