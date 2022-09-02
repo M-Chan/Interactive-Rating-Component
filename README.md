@@ -26,8 +26,12 @@ Users should be able to:
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
 
-### Screenshot
-![Screenshot 2022-09-02 at 11-50-59 Frontend Mentor Interactive rating component](https://user-images.githubusercontent.com/81781462/188124567-a2727b8b-34e0-42c4-a38a-08d8569eff45.png)
+### Screenshots
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/81781462/188127854-3e4b344d-8bf5-4501-b458-f22adf52d0d8.jpg" alt="Frontend Mentor - Interactive Rating Component  - Select" width="100%" /> 
+  <img src="https://user-images.githubusercontent.com/81781462/188127862-c9f04c91-2418-43a7-89d6-0c717c7c552e.jpg" alt="Frontend Mentor - Interactive Rating Component  - Thanks" width="100%" />
+</p>
+
 
 
 
