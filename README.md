@@ -27,15 +27,14 @@ Users should be able to:
 - See the "Thank you" card state after submitting a rating
 
 ### Screenshot
-
-![](./screenshot.jpg)
+![Screenshot 2022-09-02 at 11-50-59 Frontend Mentor Interactive rating component](https://user-images.githubusercontent.com/81781462/188124567-a2727b8b-34e0-42c4-a38a-08d8569eff45.png)
 
 
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Interactive Rating Component]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-using-vanilla-js-HIB0nG1YC9)
+- Live Site URL: [Interactive Rating Component](https://m-chan.github.io/Interactive-Rating-Component/)
 
 
 &nbsp;
