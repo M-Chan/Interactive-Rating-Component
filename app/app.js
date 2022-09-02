@@ -17,7 +17,7 @@ function submit(){
         thanksCard.classList.remove("is--hidden");
         thanksCard.classList.add("is--visible");
 
-        submittedRating.innerText = rating;
+        submittedRating.innerText = "You selected " + rating + " out of 5";
     }
     else{
         alert("Please select a rating");

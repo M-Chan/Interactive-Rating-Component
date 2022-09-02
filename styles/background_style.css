@@ -167,7 +167,6 @@
     display: flex;
     justify-items: center;
     align-items: center;
-    text-align: center;
 }
 
 .youSelectedInner{
@@ -177,11 +176,12 @@
     position: relative;
 }
 
-.youSelectedInner p{
-    display: inline;
+#selectedRating{
     color: hsl(25, 97%, 53%);
     font-family: 'Overpass', sans-serif;
     font-weight: 400;
+
+    justify-self: center;
 }
 
 #mainText2{
@@ -267,7 +267,7 @@
     
     .youSelectedInner{left: 0.7vw;}
     
-    .youSelectedInner p{font-size: 2.2vh;}
+    #selectedRating{font-size: 2.2vh;}
 }
 
 
@@ -328,7 +328,7 @@
 
     .youSelectedInner{left: 3.4vw;}
 
-    .youSelectedInner p{font-size: 3.5vw;}
+    #selectedRating{font-size: 3.5vw;}
 
     #mainText2{transform: translateY(25%);}
 }
